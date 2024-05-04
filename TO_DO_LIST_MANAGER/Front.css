@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url("background.png");
+    background-position-y: center;
+    background-position-x: right;
+    background-size: cover;
+}
+
+section.head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    /* background: rgba(0,0,0,0.5); */
+    font-size: 20px;
+}
+
+ion-icon{
+    cursor: pointer; 
+}
+
+section.logo{
+    /* flex: 1; */
+    color: black;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+h1{
+    color: mediumpurple;
+}
+
+section ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section ul li{
+    list-style: none;
+}
+
+section li a ion-icon{
+    color: mediumpurple;
+    font-size: 25px;
+}
+
+section ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+section ul li a:hover{
+    border-bottom: 2px solid cadetblue; 
+}
+
+section .menu{
+    width: 100px;
+    font-size: 2.5em;
+    display: block;
+    color:#fff;
+    text-align: center;
+}
+
+section.para{
+    margin-top: 100px;
+    margin-left: 60px;
+    height: 420px;
+    width: 650px;
+    font-size: 29px;
+    padding: 60px;
+    color:#000;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 10px;
+    text-align: left;
+    color:gold;
+}
+
+p{
+    text-align: left;
+    margin-top: 10px;
+    color:mediumpurple;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footerContainer{
+    /* width: 100%; */
+    padding: 10px 30px 10px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.socialIcons a ion-icon{
+    font-size: 20px;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover ion-icon{
+    color: white;
+    transition: 0.5s;
+}
+
+/* .footerNav{
+    margin: 5px 0;
+} */
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    text-align: center;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 50;
+    /* margin: 0px 5px; */
+}
