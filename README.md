@@ -18,3 +18,10 @@ Purpose and Goals:
 7. User-Friendly Experience: A user-friendly interface ensures ease of use and accessibility for all users.
 8. Data Security and Privacy: Robust security measures are implemented to safeguard user data and ensure privacy.
 9. Performance and Reliability: The platform is designed to maintain high performance and reliability to meet user expectations.
+
+Usage:
+1. Sign up or log in to access the To-Do List Manager.
+2. Create tasks, set deadlines, and prioritize them according to your needs.
+3. Collaborate with team members (if applicable) to work on shared tasks.
+4. Track the progress of tasks and mark them as completed upon finishing.
+5. Integrate with other productivity tools for enhanced workflow.
