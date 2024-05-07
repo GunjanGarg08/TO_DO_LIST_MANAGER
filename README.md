@@ -1,6 +1,6 @@
 # TO_DO_LIST_MANAGER
 
-Project Overview: To-Do List Manager
+Project Overview: TO-DO LIST MANAGER
 
 Problem Statement:
 TO-DO-LIST MANAGER addresses several common challenges faced by individuals in their daily lives:
